@@ -1,0 +1,17 @@
+.navigation-list ul{
+    display: flex;
+}
+
+.navigation-list li:not(:last-child){
+    margin-right: 42px;
+}
+
+.navigation-list span{
+    color: #f47113;
+}
+
+.navigation-list a:hover  {
+    color:#f78434;
+    /* font-weight: 700; */
+}
+

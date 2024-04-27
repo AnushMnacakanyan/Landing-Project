@@ -1,0 +1,53 @@
+.button {
+    display: inline-block;
+    height: 58px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border-radius: 29px;
+    background-color: #f47113;
+
+    line-height: 58px;
+    font-weight: 700;
+    color: #fff;
+    transition: background-color 0.2s ease-in;
+}
+
+.button:hover {
+    background-color: #f78434;
+}
+
+.button--white {
+    background-color: #fff;
+    color: #323232;
+    transition: background-color 0.2s ease-in ,color 0.2s ease-in;
+
+}
+
+.button--white:hover {
+    background-color: #323232;
+    color: #fff;
+}
+
+.button--play{
+    padding-left: 50px;
+    position: relative;
+}
+
+.button--play::before{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* margin-top: 1px; */
+
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+
+    background-image: url("./../img/icons/play.svg");
+    background-size: initial;
+    background-repeat: no-repeat;
+
+ 
+}
